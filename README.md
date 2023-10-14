@@ -15,4 +15,8 @@ To whom does your face look like?
 
 ## Look Alike of Jacqueline Fernandez
 
-![Screenshot (473)](https://github.com/Santhosh-1801/Face-Matching-Application/assets/74703503/4a6b684c-6db3-4c20-97b2-76767b27edaa)
+![Screenshot (473)](https://github.com/Santhosh-1801/Face-Matching-Application/assets/74703503/4a6b684c-6db3-4c20-97b2-76767b27edaa) 
+
+## Look Alike of Emraan Hashmi
+
+![Screenshot (479)](https://github.com/Santhosh-1801/Face-Matching-Application/assets/74703503/c023db9a-a1dc-4647-b9fb-78f9af25f7f8)
