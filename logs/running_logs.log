@@ -1,0 +1,201 @@
+[2023-10-13 19:11:19,969: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:11:19,978: ERROR: 01_generate_img_pkl]: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 19, in generate_data_pickle_file
+    artifacts_dir=artifacts['artifacts_dir']
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023-10-13 19:11:42,190: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:11:42,192: ERROR: 01_generate_img_pkl]: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 19, in generate_data_pickle_file
+    artifacts_dir=artifacts['artifacts_dir']
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023-10-13 19:15:48,248: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:15:48,263: ERROR: 01_generate_img_pkl]: while scanning a simple key
+  in "config/config.yaml", line 2, column 1
+could not find expected ':'
+  in "config/config.yaml", line 3, column 1
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 14, in generate_data_pickle_file
+    config=read_yaml(config_path)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\FaceMatchingusingDL\src\utils\all_utils.py", line 7, in read_yaml
+    content=yaml.safe_load(yaml_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\__init__.py", line 125, in safe_load
+    return load(stream, SafeLoader)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\__init__.py", line 81, in load
+    return loader.get_single_data()
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\constructor.py", line 49, in get_single_data
+    node = self.get_single_node()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\composer.py", line 36, in get_single_node
+    document = self.compose_document()
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\composer.py", line 64, in compose_node
+    if self.check_event(AliasEvent):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\parser.py", line 98, in check_event
+    self.current_event = self.state()
+                         ^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\parser.py", line 449, in parse_block_mapping_value
+    if not self.check_token(KeyToken, ValueToken, BlockEndToken):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\Python 3.11\Lib\site-packages\yaml\scanner.py", line 152, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "F:\Python 3.11\Lib\site-packages\yaml\scanner.py", line 291, in stale_possible_simple_keys
+    raise ScannerError("while scanning a simple key", key.mark,
+yaml.scanner.ScannerError: while scanning a simple key
+  in "config/config.yaml", line 2, column 1
+could not find expected ':'
+  in "config/config.yaml", line 3, column 1
+[2023-10-13 19:16:07,573: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:16:07,575: ERROR: 01_generate_img_pkl]: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 19, in generate_data_pickle_file
+    artifacts_dir=artifacts['artifacts_dir']
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023-10-13 19:25:31,494: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:25:31,495: ERROR: 01_generate_img_pkl]: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 19, in generate_data_pickle_file
+    artifacts_dir=artifacts['artifacts_dir']
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023-10-13 19:25:41,113: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:25:41,114: ERROR: 01_generate_img_pkl]: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 19, in generate_data_pickle_file
+    artifacts_dir=artifacts['artifacts_dir']
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023-10-13 19:26:43,137: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:26:43,138: ERROR: 01_generate_img_pkl]: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 38, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 19, in generate_data_pickle_file
+    artifacts_dir=artifacts['artifacts_dir']
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023-10-13 19:34:45,472: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:34:45,474: ERROR: 01_generate_img_pkl]: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 40, in <module>
+    generate_data_pickle_file(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 21, in generate_data_pickle_file
+    artifacts_dir=artifacts['artifacts_dir']
+                  ~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2023-10-13 19:38:24,486: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:38:24,489: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 19:38:24,489: ERROR: 01_generate_img_pkl]: module 'logging' has no attribute 'ingo'
+Traceback (most recent call last):
+  File "D:\FaceMatchingusingDL\src\01_generate_img_pkl.py", line 41, in <module>
+    logging.ingo("stage_01 completed>>>>>")
+    ^^^^^^^^^^^^
+AttributeError: module 'logging' has no attribute 'ingo'
+[2023-10-13 19:38:36,492: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:38:36,494: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 19:38:36,494: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 19:38:54,418: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:38:54,420: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 19:38:54,420: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 19:39:16,401: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:39:16,404: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 19:39:16,404: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 19:43:43,164: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:43:43,165: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 19:43:43,166: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 19:44:28,880: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 19:44:28,882: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 19:44:28,882: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 22:33:49,973: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 22:33:50,011: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 22:33:50,014: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 22:41:46,137: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 22:41:46,139: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 22:41:49,117: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 22:50:26,920: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 22:50:26,922: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 22:50:26,958: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 22:51:03,561: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 22:51:03,563: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 22:51:04,040: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 22:58:55,153: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 22:58:55,156: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 22:58:55,195: INFO: 01_generate_img_pkl]: Total actor are: 100
+[2023-10-13 22:58:55,195: INFO: 01_generate_img_pkl]: Total actor image are: 8664
+[2023-10-13 22:58:55,195: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-13 23:01:19,891: INFO: 01_generate_img_pkl]: >>>>> stage_01 started
+[2023-10-13 23:01:19,894: INFO: all_utils]: Directory has been created artifacts\pickle_format_data
+[2023-10-13 23:01:19,929: INFO: 01_generate_img_pkl]: Total actor are: 100
+[2023-10-13 23:01:19,929: INFO: 01_generate_img_pkl]: Total actor image are: 8664
+[2023-10-13 23:01:20,101: INFO: 01_generate_img_pkl]: stage_01 completed>>>>>
+[2023-10-14 12:25:01,990: INFO: 02_feature_extractor]: >>>>> stage_01 started
+[2023-10-14 12:25:02,163: ERROR: 02_feature_extractor]: 'include_tops'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 62, in <module>
+    featrure_extractor(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/02_feature_extractor.py", line 35, in featrure_extractor
+    include_tops=params['base']['include_tops']
+KeyError: 'include_tops'
+[2023-10-14 12:25:35,499: INFO: 02_feature_extractor]: >>>>> stage_01 started
+[2023-10-14 12:25:35,502: ERROR: 02_feature_extractor]: 'include_tops'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 62, in <module>
+    featrure_extractor(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/02_feature_extractor.py", line 35, in featrure_extractor
+    include_tops=params['base']['include_tops']
+KeyError: 'include_tops'
+[2023-10-14 12:26:21,968: INFO: 02_feature_extractor]: >>>>> stage_01 started
+[2023-10-14 12:26:22,067: ERROR: 02_feature_extractor]: 'include_tops'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 62, in <module>
+    featrure_extractor(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/02_feature_extractor.py", line 35, in featrure_extractor
+    include_tops=params['base']['include_tops']
+KeyError: 'include_tops'
+[2023-10-14 12:27:12,494: INFO: 02_feature_extractor]: >>>>> stage_01 started
+[2023-10-14 12:27:12,497: ERROR: 02_feature_extractor]: VGGFace() got an unexpected keyword argument 'poolings'
+Traceback (most recent call last):
+  File "src/02_feature_extractor.py", line 62, in <module>
+    featrure_extractor(config_path=parsed_args.config,params_path=parsed_args.params)
+  File "src/02_feature_extractor.py", line 38, in featrure_extractor
+    model=VGGFace(model=model_name,include_top=include_tops,input_shape=(224,224,3),poolings=poolings)
+TypeError: VGGFace() got an unexpected keyword argument 'poolings'
+[2023-10-14 12:27:28,941: INFO: 02_feature_extractor]: >>>>> stage_01 started
+[2023-10-14 12:28:10,804: INFO: all_utils]: Directory has been created artifacts\extracted_features
+[2023-10-14 12:28:10,806: INFO: 02_feature_extractor]: stage_01 completed>>>>>
+[2023-10-14 15:13:59,444: INFO: 02_feature_extractor]: >>>>> stage_02 started
+[2023-10-14 15:14:04,520: INFO: all_utils]: Directory has been created artifacts\extracted_features
+[2023-10-14 15:43:00,261: INFO: 02_feature_extractor]: stage_02 completed>>>>>
